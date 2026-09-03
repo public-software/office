@@ -1,0 +1,24 @@
+# Machine-readable entry for this repository. Aggregated into public-software/catalog.
+# Edit here; `pub catalog sync` propagates description, topics and custom properties to GitHub.
+
+[repo]
+name        = "office"
+ring        = "domain"          # spine | platform | system | domain | standards
+layers      = ["L12","L7"]
+wave        = 1
+tier        = "incubating"        # incubating | stable | core | archived
+maintainers = ["maint-office"]
+summary     = "Word processor, spreadsheet application, presentations, document format libraries."
+
+# One [[component]] per crate, app or service this workspace publishes.
+# planned: pub-office-docfmt · pub-office-writer · pub-office-sheets · pub-office-slides
+#
+# [[component]]
+# crate     = "pub-office-example"
+# kind      = "lib"                # lib | app | service | plugin | spec
+# ledger    = "<ledger entry name>"
+# readiness = "none"               # shipped | partial | seed | none
+# effort    = 3
+# specs     = []
+# provides  = ["public:area/iface@1"]
+# requires  = []
